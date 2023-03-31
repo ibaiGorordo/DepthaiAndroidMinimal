@@ -5,6 +5,8 @@
 
 cmake_minimum_required(VERSION 3.18.1)
 
+set(CMAKE_DEBUG_POSTFIX "")
+
 # Declares and names the project.
 set(BUILD_SHARED_LIBS ON)
 add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/depthai-core EXCLUDE_FROM_ALL)
